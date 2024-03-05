@@ -23,9 +23,7 @@ const Navbar = () => {
           <li className="cursor-pointer hover:border-b-2 border-black">
             Blogs
           </li>
-          <li className="cursor-pointer hover:border-b-2 border-black">
-            Contact Us
-          </li>
+          <li className="cursor-pointer border-b-2 border-black">Contact Us</li>
         </ul>
       </div>
 
