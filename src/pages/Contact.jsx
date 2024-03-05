@@ -41,7 +41,7 @@ const Contact = () => {
             toast.error("Failed to submit form data!");
           })
           .finally(() => {
-            setLoading(false); // Set loading state back to false when request is complete
+            setLoading(false); 
           });
 
         action.resetForm();
