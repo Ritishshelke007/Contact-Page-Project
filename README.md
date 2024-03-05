@@ -68,6 +68,14 @@ Open your browser and navigate to http://localhost:5173 to view the application.
 
 ![image](https://github.com/Ritishshelke007/Contact-Page-Project/assets/89585029/6607b4fa-77be-4657-80fd-37f73f3f72f1)
 
+![image](https://github.com/Ritishshelke007/Contact-Page-Project/assets/89585029/2b077d89-72aa-4a22-b6c0-b4c819fd8ab5)
+
+![image](https://github.com/Ritishshelke007/Contact-Page-Project/assets/89585029/505ba51e-9f2d-49c6-982a-732b89de2639)
+
+![image](https://github.com/Ritishshelke007/Contact-Page-Project/assets/89585029/dcce5804-9d19-468b-b9c9-5efa5e573771)
+
+
+
 ![image](https://github.com/Ritishshelke007/Contact-Page-Project/assets/89585029/9239db6f-723e-490b-a56b-395f070cf3f9)
 
 
