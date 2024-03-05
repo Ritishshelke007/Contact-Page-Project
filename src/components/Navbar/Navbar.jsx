@@ -4,7 +4,7 @@ import assessli from "../../assets/assessli2.png";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-20 bg-slate-50  shadow-md flex justify-between px-10 items-center">
+    <div className="hidden w-full h-20 bg-slate-50  shadow-md md:flex justify-between px-10 items-center">
       <div className="flex justify-center items-center space-x-2">
         <img src={assessliLogo} alt="logo" className="h-10 w-10" />
         <img src={assessli} alt="logo" className="w-20" />

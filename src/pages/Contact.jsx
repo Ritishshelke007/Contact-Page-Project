@@ -34,7 +34,7 @@ const Contact = () => {
           .then((response) => {
             console.log(response);
             toast.dismiss();
-            toast.success("Form data submitted successfully!");
+            toast.success("Thank you for your response!");
           })
           .catch((error) => {
             console.log("Error in submiting", error);
@@ -48,11 +48,9 @@ const Contact = () => {
       },
     });
 
-  console.log(errors);
-
   return (
-    <div className=" bg-slate-100 flex justify-center items-center pt-4 gap-6 h-[calc(100vh-80px)]">
-      <div className="flex items-start justify-center flex-col w-1/2 max-w-lg bg-white rounded-xl shadow-lg pt-5 pb-2  px-10 space-y-3">
+    <div className=" bg-slate-100 flex justify-center flex-col md:flex-row items-center pt-4 gap-6 md:h-[calc(100vh-80px)]">
+      <div className="flex  items-start justify-center flex-col md:w-1/2 md:max-w-lg bg-white rounded-xl shadow-lg pt-5 pb-2  px-10 space-y-3 w-[80%]">
         <div className="flex space-y-1 flex-col">
           <p className="font-semibold text-2xl">Contact Us</p>
         </div>
@@ -60,7 +58,7 @@ const Contact = () => {
 
         <div className="w-full ">
           <form
-            className="flex flex-col space-y-7  md:w-full"
+            className="flex flex-col space-y-7 w-full"
             onSubmit={handleSubmit}
           >
             <div className="flex flex-col space-y-2">
@@ -182,8 +180,8 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex items-start justify-center w-1/2 flex-col max-w-lg space-y-3">
-        <div className="bg-white px-10  rounded-xl shadow-lg pt-5 pb-4">
+      <div className="flex items-start justify-center md:w-1/2 flex-col max-w-lg w-[80%] space-y-3">
+        <div className="bg-white px-10  rounded-xl shadow-lg pt-5 pb-4 ">
           <div className="flex space-x-1 justify-center items-center w-full pb-2">
             <img src={assessliLogo} alt="logo" className="h-10 w-10" />
             <img src={assessli} alt="logo" className="w-20" />
